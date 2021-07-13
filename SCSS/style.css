@@ -1,0 +1,25 @@
+.btn .bt2 {
+  height: 50px;
+  width: 66.6666666667%;
+  background: green;
+  border: 1px solid;
+}
+
+.textHead {
+  color: red;
+}
+
+.btn .text {
+  font-size: 20px;
+  color: aqua;
+}
+.btn .bt2:hover {
+  background-color: blueviolet;
+}
+
+.helloWorld {
+  font-size: 35px;
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

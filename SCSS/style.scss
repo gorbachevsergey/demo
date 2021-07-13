@@ -1,0 +1,32 @@
+$textRed : red;
+@mixin fontAndColor($f,$c){
+  font-size: $f;
+  color: $c;
+}
+%btnStyle {
+  height: 50px;
+  width: 600px / 900px * 100%;
+  background: green;
+  border: 1px solid;
+}
+
+.textHead {
+  color: $textRed;
+}
+.btn {
+  .text{
+    font-size: 20px;
+    color: aqua;
+  }
+  .bt2{
+    @extend %btnStyle;
+    &:hover{
+      background-color: blueviolet ;
+    }
+  }
+}
+.helloWorld{
+  @include fontAndColor(35px,blue);
+}
+
+
